@@ -1,0 +1,22 @@
+# Core dependencies
+numpy==1.26.4
+pandas==2.2.2
+python-dotenv==1.0.1
+
+# PDF parsing
+PyMuPDF==1.24.4   # fitz module
+
+# OpenAI API
+openai==1.14.3
+
+# Cross-encoder reranker
+sentence-transformers==2.7.0
+transformers==4.39.3
+torch==2.2.2
+
+# Azure OCR (modern SDK)
+azure-ai-vision==1.0.0b2
+
+# Azure OCR (legacy SDK, optional if you keep dataloading.py fallback)
+azure-cognitiveservices-vision-computervision==0.9.0
+msrest==0.7.1
