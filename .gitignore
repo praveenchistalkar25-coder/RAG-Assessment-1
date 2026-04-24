@@ -1,4 +1,6 @@
-venv/
-AI_testing/venv/
+# Ignore local data and secrets
+.env
+Assessment Data/
 __pycache__/
-*.pyc
+*.log
+
